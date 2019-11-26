@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561C940B238D1CC0005D3602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C940A238D1CC0005D3602 /* AppDelegate.swift */; };
+		561C940D238D1CC0005D3602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C940C238D1CC0005D3602 /* ViewController.swift */; };
+		561C9410238D1CC0005D3602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561C940E238D1CC0005D3602 /* Main.storyboard */; };
+		561C9412238D1CC1005D3602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561C9411238D1CC1005D3602 /* Assets.xcassets */; };
+		561C9415238D1CC1005D3602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561C9413238D1CC1005D3602 /* LaunchScreen.storyboard */; };
+		561C9420238D1CC1005D3602 /* The_AirlinersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C941F238D1CC1005D3602 /* The_AirlinersTests.swift */; };
+		561C942B238D1CC1005D3602 /* The_AirlinersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C942A238D1CC1005D3602 /* The_AirlinersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561C941C238D1CC1005D3602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561C93FF238D1CC0005D3602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561C9406238D1CC0005D3602;
+			remoteInfo = "The Airliners";
+		};
+		561C9427238D1CC1005D3602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561C93FF238D1CC0005D3602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561C9406238D1CC0005D3602;
+			remoteInfo = "The Airliners";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561C9407238D1CC0005D3602 /* The Airliners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Airliners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561C940A238D1CC0005D3602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561C940C238D1CC0005D3602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		561C940F238D1CC0005D3602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561C9411238D1CC1005D3602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561C9414238D1CC1005D3602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561C9416238D1CC1005D3602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561C941B238D1CC1005D3602 /* The AirlinersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The AirlinersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561C941F238D1CC1005D3602 /* The_AirlinersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_AirlinersTests.swift; sourceTree = "<group>"; };
+		561C9421238D1CC1005D3602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561C9426238D1CC1005D3602 /* The AirlinersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The AirlinersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561C942A238D1CC1005D3602 /* The_AirlinersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_AirlinersUITests.swift; sourceTree = "<group>"; };
+		561C942C238D1CC1005D3602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561C9404238D1CC0005D3602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561C9418238D1CC1005D3602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561C9423238D1CC1005D3602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561C93FE238D1CC0005D3602 = {
+			isa = PBXGroup;
+			children = (
+				561C9409238D1CC0005D3602 /* The Airliners */,
+				561C941E238D1CC1005D3602 /* The AirlinersTests */,
+				561C9429238D1CC1005D3602 /* The AirlinersUITests */,
+				561C9408238D1CC0005D3602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561C9408238D1CC0005D3602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561C9407238D1CC0005D3602 /* The Airliners.app */,
+				561C941B238D1CC1005D3602 /* The AirlinersTests.xctest */,
+				561C9426238D1CC1005D3602 /* The AirlinersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561C9409238D1CC0005D3602 /* The Airliners */ = {
+			isa = PBXGroup;
+			children = (
+				561C940A238D1CC0005D3602 /* AppDelegate.swift */,
+				561C940C238D1CC0005D3602 /* ViewController.swift */,
+				561C940E238D1CC0005D3602 /* Main.storyboard */,
+				561C9411238D1CC1005D3602 /* Assets.xcassets */,
+				561C9413238D1CC1005D3602 /* LaunchScreen.storyboard */,
+				561C9416238D1CC1005D3602 /* Info.plist */,
+			);
+			path = "The Airliners";
+			sourceTree = "<group>";
+		};
+		561C941E238D1CC1005D3602 /* The AirlinersTests */ = {
+			isa = PBXGroup;
+			children = (
+				561C941F238D1CC1005D3602 /* The_AirlinersTests.swift */,
+				561C9421238D1CC1005D3602 /* Info.plist */,
+			);
+			path = "The AirlinersTests";
+			sourceTree = "<group>";
+		};
+		561C9429238D1CC1005D3602 /* The AirlinersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561C942A238D1CC1005D3602 /* The_AirlinersUITests.swift */,
+				561C942C238D1CC1005D3602 /* Info.plist */,
+			);
+			path = "The AirlinersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561C9406238D1CC0005D3602 /* The Airliners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561C942F238D1CC1005D3602 /* Build configuration list for PBXNativeTarget "The Airliners" */;
+			buildPhases = (
+				561C9403238D1CC0005D3602 /* Sources */,
+				561C9404238D1CC0005D3602 /* Frameworks */,
+				561C9405238D1CC0005D3602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Airliners";
+			productName = "The Airliners";
+			productReference = 561C9407238D1CC0005D3602 /* The Airliners.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561C941A238D1CC1005D3602 /* The AirlinersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561C9432238D1CC1005D3602 /* Build configuration list for PBXNativeTarget "The AirlinersTests" */;
+			buildPhases = (
+				561C9417238D1CC1005D3602 /* Sources */,
+				561C9418238D1CC1005D3602 /* Frameworks */,
+				561C9419238D1CC1005D3602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561C941D238D1CC1005D3602 /* PBXTargetDependency */,
+			);
+			name = "The AirlinersTests";
+			productName = "The AirlinersTests";
+			productReference = 561C941B238D1CC1005D3602 /* The AirlinersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561C9425238D1CC1005D3602 /* The AirlinersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561C9435238D1CC1005D3602 /* Build configuration list for PBXNativeTarget "The AirlinersUITests" */;
+			buildPhases = (
+				561C9422238D1CC1005D3602 /* Sources */,
+				561C9423238D1CC1005D3602 /* Frameworks */,
+				561C9424238D1CC1005D3602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561C9428238D1CC1005D3602 /* PBXTargetDependency */,
+			);
+			name = "The AirlinersUITests";
+			productName = "The AirlinersUITests";
+			productReference = 561C9426238D1CC1005D3602 /* The AirlinersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561C93FF238D1CC0005D3602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = VuTQ10;
+				TargetAttributes = {
+					561C9406238D1CC0005D3602 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					561C941A238D1CC1005D3602 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 561C9406238D1CC0005D3602;
+					};
+					561C9425238D1CC1005D3602 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 561C9406238D1CC0005D3602;
+					};
+				};
+			};
+			buildConfigurationList = 561C9402238D1CC0005D3602 /* Build configuration list for PBXProject "The Airliners" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561C93FE238D1CC0005D3602;
+			productRefGroup = 561C9408238D1CC0005D3602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561C9406238D1CC0005D3602 /* The Airliners */,
+				561C941A238D1CC1005D3602 /* The AirlinersTests */,
+				561C9425238D1CC1005D3602 /* The AirlinersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561C9405238D1CC0005D3602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C9415238D1CC1005D3602 /* LaunchScreen.storyboard in Resources */,
+				561C9412238D1CC1005D3602 /* Assets.xcassets in Resources */,
+				561C9410238D1CC0005D3602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561C9419238D1CC1005D3602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561C9424238D1CC1005D3602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561C9403238D1CC0005D3602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C940D238D1CC0005D3602 /* ViewController.swift in Sources */,
+				561C940B238D1CC0005D3602 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561C9417238D1CC1005D3602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C9420238D1CC1005D3602 /* The_AirlinersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561C9422238D1CC1005D3602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C942B238D1CC1005D3602 /* The_AirlinersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561C941D238D1CC1005D3602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561C9406238D1CC0005D3602 /* The Airliners */;
+			targetProxy = 561C941C238D1CC1005D3602 /* PBXContainerItemProxy */;
+		};
+		561C9428238D1CC1005D3602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561C9406238D1CC0005D3602 /* The Airliners */;
+			targetProxy = 561C9427238D1CC1005D3602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561C940E238D1CC0005D3602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561C940F238D1CC0005D3602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561C9413238D1CC1005D3602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561C9414238D1CC1005D3602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561C942D238D1CC1005D3602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561C942E238D1CC1005D3602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561C9430238D1CC1005D3602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Airliners/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.The-Airliners";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561C9431238D1CC1005D3602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Airliners/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.The-Airliners";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		561C9433238D1CC1005D3602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The AirlinersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.The-AirlinersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Airliners.app/The Airliners";
+			};
+			name = Debug;
+		};
+		561C9434238D1CC1005D3602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The AirlinersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.The-AirlinersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Airliners.app/The Airliners";
+			};
+			name = Release;
+		};
+		561C9436238D1CC1005D3602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The AirlinersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.The-AirlinersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Airliners";
+			};
+			name = Debug;
+		};
+		561C9437238D1CC1005D3602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The AirlinersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.The-AirlinersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Airliners";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561C9402238D1CC0005D3602 /* Build configuration list for PBXProject "The Airliners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561C942D238D1CC1005D3602 /* Debug */,
+				561C942E238D1CC1005D3602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561C942F238D1CC1005D3602 /* Build configuration list for PBXNativeTarget "The Airliners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561C9430238D1CC1005D3602 /* Debug */,
+				561C9431238D1CC1005D3602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561C9432238D1CC1005D3602 /* Build configuration list for PBXNativeTarget "The AirlinersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561C9433238D1CC1005D3602 /* Debug */,
+				561C9434238D1CC1005D3602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561C9435238D1CC1005D3602 /* Build configuration list for PBXNativeTarget "The AirlinersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561C9436238D1CC1005D3602 /* Debug */,
+				561C9437238D1CC1005D3602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561C93FF238D1CC0005D3602 /* Project object */;
+}
