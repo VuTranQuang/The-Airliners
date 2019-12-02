@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560DA4102390BC6C00D09B24 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560DA40E2390BC6C00D09B24 /* TableViewCell.swift */; };
+		560DA4112390BC6C00D09B24 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 560DA40F2390BC6C00D09B24 /* TableViewCell.xib */; };
+		560DA41C2390BFA000D09B24 /* 707.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA4132390BF9F00D09B24 /* 707.jpg */; };
+		560DA41D2390BFA000D09B24 /* 737.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA4142390BF9F00D09B24 /* 737.jpg */; };
+		560DA41E2390BFA000D09B24 /* 747.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA4152390BF9F00D09B24 /* 747.jpg */; };
+		560DA41F2390BFA000D09B24 /* 717.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA4162390BF9F00D09B24 /* 717.jpg */; };
+		560DA4202390BFA000D09B24 /* 727.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA4172390BF9F00D09B24 /* 727.jpg */; };
+		560DA4212390BFA000D09B24 /* 767.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA4182390BFA000D09B24 /* 767.jpg */; };
+		560DA4222390BFA000D09B24 /* 757.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA4192390BFA000D09B24 /* 757.jpg */; };
+		560DA4232390BFA000D09B24 /* 777.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA41A2390BFA000D09B24 /* 777.jpg */; };
+		560DA4242390BFA000D09B24 /* 787.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 560DA41B2390BFA000D09B24 /* 787.jpg */; };
+		560DA4282390C50400D09B24 /* Airliner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560DA4272390C50400D09B24 /* Airliner.swift */; };
+		560DA42A2390CC5800D09B24 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560DA4292390CC5800D09B24 /* InformationViewController.swift */; };
+		560DA4322390CEF700D09B24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560DA4312390CEF700D09B24 /* TableViewController.swift */; };
+		560DA4342390CF1000D09B24 /* TableViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560DA4332390CF1000D09B24 /* TableViewCellTest.swift */; };
+		560DA4362390F03C00D09B24 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560DA4352390F03C00D09B24 /* Test.swift */; };
 		561C940B238D1CC0005D3602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C940A238D1CC0005D3602 /* AppDelegate.swift */; };
 		561C940D238D1CC0005D3602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C940C238D1CC0005D3602 /* ViewController.swift */; };
 		561C9410238D1CC0005D3602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561C940E238D1CC0005D3602 /* Main.storyboard */; };
@@ -14,6 +30,8 @@
 		561C9415238D1CC1005D3602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561C9413238D1CC1005D3602 /* LaunchScreen.storyboard */; };
 		561C9420238D1CC1005D3602 /* The_AirlinersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C941F238D1CC1005D3602 /* The_AirlinersTests.swift */; };
 		561C942B238D1CC1005D3602 /* The_AirlinersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C942A238D1CC1005D3602 /* The_AirlinersUITests.swift */; };
+		561C943A238D1EE3005D3602 /* PlanesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561C9439238D1EE3005D3602 /* PlanesList.plist */; };
+		56503E5E2394B3370074DE24 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56503E5D2394B3370074DE24 /* UIView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560DA40E2390BC6C00D09B24 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		560DA40F2390BC6C00D09B24 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		560DA4132390BF9F00D09B24 /* 707.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 707.jpg; sourceTree = "<group>"; };
+		560DA4142390BF9F00D09B24 /* 737.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 737.jpg; sourceTree = "<group>"; };
+		560DA4152390BF9F00D09B24 /* 747.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 747.jpg; sourceTree = "<group>"; };
+		560DA4162390BF9F00D09B24 /* 717.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 717.jpg; sourceTree = "<group>"; };
+		560DA4172390BF9F00D09B24 /* 727.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 727.jpg; sourceTree = "<group>"; };
+		560DA4182390BFA000D09B24 /* 767.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 767.jpg; sourceTree = "<group>"; };
+		560DA4192390BFA000D09B24 /* 757.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 757.jpg; sourceTree = "<group>"; };
+		560DA41A2390BFA000D09B24 /* 777.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 777.jpg; sourceTree = "<group>"; };
+		560DA41B2390BFA000D09B24 /* 787.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 787.jpg; sourceTree = "<group>"; };
+		560DA4272390C50400D09B24 /* Airliner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airliner.swift; sourceTree = "<group>"; };
+		560DA4292390CC5800D09B24 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		560DA4312390CEF700D09B24 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		560DA4332390CF1000D09B24 /* TableViewCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTest.swift; sourceTree = "<group>"; };
+		560DA4352390F03C00D09B24 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		561C9407238D1CC0005D3602 /* The Airliners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Airliners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		561C940A238D1CC0005D3602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		561C940C238D1CC0005D3602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +81,8 @@
 		561C9426238D1CC1005D3602 /* The AirlinersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The AirlinersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		561C942A238D1CC1005D3602 /* The_AirlinersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_AirlinersUITests.swift; sourceTree = "<group>"; };
 		561C942C238D1CC1005D3602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561C9439238D1EE3005D3602 /* PlanesList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PlanesList.plist; sourceTree = "<group>"; };
+		56503E5D2394B3370074DE24 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +110,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		560DA40D2390BC4E00D09B24 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				560DA40E2390BC6C00D09B24 /* TableViewCell.swift */,
+				560DA40F2390BC6C00D09B24 /* TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		560DA4122390BF8A00D09B24 /* PlanesPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				560DA4132390BF9F00D09B24 /* 707.jpg */,
+				560DA4162390BF9F00D09B24 /* 717.jpg */,
+				560DA4172390BF9F00D09B24 /* 727.jpg */,
+				560DA4142390BF9F00D09B24 /* 737.jpg */,
+				560DA4152390BF9F00D09B24 /* 747.jpg */,
+				560DA4192390BFA000D09B24 /* 757.jpg */,
+				560DA4182390BFA000D09B24 /* 767.jpg */,
+				560DA41A2390BFA000D09B24 /* 777.jpg */,
+				560DA41B2390BFA000D09B24 /* 787.jpg */,
+			);
+			path = PlanesPhoto;
+			sourceTree = "<group>";
+		};
+		560DA4372390F50800D09B24 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				560DA4312390CEF700D09B24 /* TableViewController.swift */,
+				560DA4332390CF1000D09B24 /* TableViewCellTest.swift */,
+				560DA4352390F03C00D09B24 /* Test.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		561C93FE238D1CC0005D3602 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +170,12 @@
 			children = (
 				561C940A238D1CC0005D3602 /* AppDelegate.swift */,
 				561C940C238D1CC0005D3602 /* ViewController.swift */,
+				560DA4292390CC5800D09B24 /* InformationViewController.swift */,
+				560DA40D2390BC4E00D09B24 /* Cell */,
+				561C9438238D1EAF005D3602 /* Source */,
+				560DA4372390F50800D09B24 /* Test */,
 				561C940E238D1CC0005D3602 /* Main.storyboard */,
+				56503E5D2394B3370074DE24 /* UIView + Extension.swift */,
 				561C9411238D1CC1005D3602 /* Assets.xcassets */,
 				561C9413238D1CC1005D3602 /* LaunchScreen.storyboard */,
 				561C9416238D1CC1005D3602 /* Info.plist */,
@@ -123,6 +199,16 @@
 				561C942C238D1CC1005D3602 /* Info.plist */,
 			);
 			path = "The AirlinersUITests";
+			sourceTree = "<group>";
+		};
+		561C9438238D1EAF005D3602 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				560DA4122390BF8A00D09B24 /* PlanesPhoto */,
+				560DA4272390C50400D09B24 /* Airliner.swift */,
+				561C9439238D1EE3005D3602 /* PlanesList.plist */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +315,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560DA4232390BFA000D09B24 /* 777.jpg in Resources */,
+				560DA41E2390BFA000D09B24 /* 747.jpg in Resources */,
+				560DA41C2390BFA000D09B24 /* 707.jpg in Resources */,
 				561C9415238D1CC1005D3602 /* LaunchScreen.storyboard in Resources */,
+				560DA41F2390BFA000D09B24 /* 717.jpg in Resources */,
+				560DA4112390BC6C00D09B24 /* TableViewCell.xib in Resources */,
+				560DA4242390BFA000D09B24 /* 787.jpg in Resources */,
+				560DA41D2390BFA000D09B24 /* 737.jpg in Resources */,
+				560DA4202390BFA000D09B24 /* 727.jpg in Resources */,
 				561C9412238D1CC1005D3602 /* Assets.xcassets in Resources */,
+				560DA4212390BFA000D09B24 /* 767.jpg in Resources */,
+				560DA4222390BFA000D09B24 /* 757.jpg in Resources */,
+				561C943A238D1EE3005D3602 /* PlanesList.plist in Resources */,
 				561C9410238D1CC0005D3602 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560DA4342390CF1000D09B24 /* TableViewCellTest.swift in Sources */,
+				560DA4102390BC6C00D09B24 /* TableViewCell.swift in Sources */,
+				560DA4322390CEF700D09B24 /* TableViewController.swift in Sources */,
 				561C940D238D1CC0005D3602 /* ViewController.swift in Sources */,
+				560DA4282390C50400D09B24 /* Airliner.swift in Sources */,
+				560DA4362390F03C00D09B24 /* Test.swift in Sources */,
 				561C940B238D1CC0005D3602 /* AppDelegate.swift in Sources */,
+				560DA42A2390CC5800D09B24 /* InformationViewController.swift in Sources */,
+				56503E5E2394B3370074DE24 /* UIView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
