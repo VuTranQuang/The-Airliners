@@ -32,13 +32,18 @@ class InformationViewController: UIViewController {
         numberBuild.text = line?.numberBuild
         status.text = line?.status
         
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         self.navigationController?.navigationBar.alpha = 0
+        
     }
     
 
    
     @IBAction func backButton(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
+         self.navigationController?.navigationBar.alpha = 1
     }
     
 }
